@@ -1,0 +1,115 @@
+@charset "UTF-8";
+	
+:root {
+	--main-color: #000;
+	--sub-color: #FFF;
+	--bg-color: #4F0600;
+	--text-color1: #666;
+	--text-color2: #EEE;
+	--line-color: #84514D;
+}
+
+*,
+* ::before
+* ::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 20px;
+}
+
+body {
+	font-family: "Roboto Condensed", "Noto Sans KR", Sans-serif;
+	color: var(--sub-color);
+	font-size: .7rem;
+	background-color: var(--bg-color);
+}
+
+a, a:link {
+	color: inherit;
+	text-decoration: none;
+}
+
+ul,ol {
+	list-style: none;
+}
+
+form, fieldset, legend {
+	margin: 0;
+	padding: 0;
+}
+
+.d-none {
+	display: none;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.align-center {
+	align-content: center;
+}
+
+.align-slef-center {
+	align-self: center;
+}
+
+.align-content-center {
+	align-content: center;
+}
+
+.text-cap {
+	text-transform: capitalize;
+}
+
+.text-upper {
+	text-transform: uppercase;
+}
+
+.text-lower {
+	text-transform: lowercase;
+}
+
+.gap-1 {
+	gap: 1rem;
+}
+
+.gap-2 {
+	gap: 2rem;
+}
+
+.gap-3 {
+	gap: 3rem;
+}
+
+.bg-light {
+	background-color: var(--sub-color1)
+}
+
+.bg-dark {
+	background-color:
+}
+
+.container {
+	max-width: 800px;
+}
+
+.mx-auto {
+	margin: 0 auto;
+}
+
+.top-links a {
+	color: var(--text-color1)
+}
+
+.d-flex {
+	display: flex;
+}
