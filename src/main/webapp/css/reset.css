@@ -3,10 +3,13 @@
 :root {
 	--main-color: #000;
 	--sub-color: #FFF;
-	--bg-color: #4F0600;
+	--bg-color1: #4F0600;
+	--bg-color2: #830E04;
 	--text-color1: #666;
 	--text-color2: #EEE;
+	--text-color3: #FFE400;
 	--line-color: #84514D;
+	--point-color: #CF160C;
 }
 
 *,
@@ -25,7 +28,7 @@ body {
 	font-family: "Roboto Condensed", "Noto Sans KR", Sans-serif;
 	color: var(--sub-color);
 	font-size: .7rem;
-	background-color: var(--bg-color);
+	background-color: var(--bg-color1);
 }
 
 a, a:link {
@@ -90,12 +93,24 @@ form, fieldset, legend {
 	gap: 3rem;
 }
 
+.py-1 {
+	padding: 1rem;
+}
+
+.py-2 {
+	padding: 2rem;
+}
+
 .bg-light {
-	background-color: var(--sub-color1)
+	background-color: var(--sub-color)
 }
 
 .bg-dark {
 	background-color:
+}
+
+.h-400{
+	height: 400px;
 }
 
 .container {
@@ -112,4 +127,48 @@ form, fieldset, legend {
 
 .d-flex {
 	display: flex;
+}
+
+/* =============== position ================ */
+
+.pos-absolute {
+	position: absolute;
+}
+
+.pos-relative {
+	position: relative;
+}
+
+.bottom-35 {
+	bottom: -35Px;
+}
+
+.text-dark {
+	color:
+	
+/* =============== slogan text ================*/
+
+.st-1 {
+	color: var(--main-color);
+	font-size: 3rem;
+}
+
+.st-2 {
+	color: var(--point-color);
+	font-size: 3rem;
+}
+
+.st-3 {
+	color: var(--sub-color);
+	font-size: 4.5rem;
+}
+
+.build-xy {
+	left: 0;
+	top: 50px;
+}
+	
+.body-xy {
+	left: 0;
+	top: -50px;
 }
