@@ -23,6 +23,10 @@
 	height: 400px
 }
 
+.fs-0 {
+	font-size: 0;
+}
+
 /* ----------- display, flexbox ------------- */
 .d-none {
 	display: none
@@ -105,6 +109,21 @@
 
 .mr-3 {
 	margin-right: 3rem;
+}
+
+.my-1 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.my-2 {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.my-3 {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
 }
 
 .text-center {
@@ -232,3 +251,32 @@ nav a:hover {
 	background-repeat: no-repeat;
 }
 
+.sports h3, .member h3 {
+	background-color: var(--main-color);
+}
+
+.sports h3 .member h3 {
+	font-size: .9rem	;
+}
+
+.sports p, .member p {
+	font-size: .75rem;
+}
+
+/* ============== line ================= */
+
+.line {
+	border: 0;
+	height: 1px;
+	background-color: var(--line-color);
+}
+	
+/* ============== footer ================= */
+
+.brand {
+	font-size: .7rem;
+}
+
+.ownership {
+	font-size: .7rem;
+}
