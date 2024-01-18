@@ -1,31 +1,29 @@
 @charset "UTF-8";
-	
+
 :root {
 	--main-color: #000;
 	--sub-color: #FFF;
 	--bg-color1: #4F0600;
-	--bg-color2: #830E04;
+	--bg-color2: #830e04;
 	--text-color1: #666;
 	--text-color2: #EEE;
-	--text-color3: #FFE400;
-	--line-color: #84514D;
-	--point-color: #CF160C;
+	--text-color3: #ffe400;
+	--line-color: #84514d;
+	--point-color: #cf160c;
 }
 
 *,
-* ::before
-* ::after {
+*::before,
+*::after {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	box-sizing: border-box
 }
-
 html {
 	font-size: 20px;
 }
-
 body {
-	font-family: "Roboto Condensed", "Noto Sans KR", Sans-serif;
+	font: 1rem/1.5 "Roboto Condensed", "Noto Sans KR";
 	color: var(--sub-color);
 	font-size: .7rem;
 	background-color: var(--bg-color1);
@@ -33,7 +31,7 @@ body {
 
 a, a:link {
 	color: inherit;
-	text-decoration: none;
+	text-decoration: none
 }
 
 ul,ol {
@@ -45,130 +43,16 @@ form, fieldset, legend {
 	padding: 0;
 }
 
-.d-none {
-	display: none;
+.roboto-condensed-medium {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto; /* 다른 뷰포트에서 폰트를 알아서 최적화 */
+  font-weight: 400;
+  font-style: normal;
 }
 
-.justify-center {
-	justify-content: center;
-}
-
-.justify-between {
-	justify-content: space-between;
-}
-
-.align-center {
-	align-content: center;
-}
-
-.align-slef-center {
-	align-self: center;
-}
-
-.align-content-center {
-	align-content: center;
-}
-
-.text-cap {
-	text-transform: capitalize;
-}
-
-.text-upper {
-	text-transform: uppercase;
-}
-
-.text-lower {
-	text-transform: lowercase;
-}
-
-.gap-1 {
-	gap: 1rem;
-}
-
-.gap-2 {
-	gap: 2rem;
-}
-
-.gap-3 {
-	gap: 3rem;
-}
-
-.py-1 {
-	padding: 1rem;
-}
-
-.py-2 {
-	padding: 2rem;
-}
-
-.bg-light {
-	background-color: var(--sub-color)
-}
-
-.bg-dark {
-	background-color:
-}
-
-.h-400{
-	height: 400px;
-}
-
-.container {
-	max-width: 800px;
-}
-
-.mx-auto {
-	margin: 0 auto;
-}
-
-.top-links a {
-	color: var(--text-color1)
-}
-
-.d-flex {
-	display: flex;
-}
-
-/* =============== position ================ */
-
-.pos-absolute {
-	position: absolute;
-}
-
-.pos-relative {
-	position: relative;
-}
-
-.bottom-35 {
-	bottom: -35Px;
-}
-
-.text-dark {
-	color:
-	
-/* =============== slogan text ================*/
-
-.st-1 {
-	color: var(--main-color);
-	font-size: 3rem;
-}
-
-.st-2 {
-	color: var(--point-color);
-	font-size: 3rem;
-}
-
-.st-3 {
-	color: var(--sub-color);
-	font-size: 4.5rem;
-}
-
-.build-xy {
-	left: 0;
-	top: 50px;
-}
-	
-.body-xy {
-	left: 0;
-	top: -50px;
-}
+.noto-sans-kr-regular {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} 
